@@ -1,0 +1,34 @@
+"_","mech2","intent","Number_Hospitalized","MedC_N","MedCost","WorkCost","CombCost","Average_MedCost","Average_WorkCost","Average_CombCost","instability_code_N","instability_code_tot_w","instability_code_tot_c","instability_code_tot_M","instability_code_avg_w","instability_code_avg_c","instability_code_avg_M","unfmt_mech2","unfmt_intent","_type_","constantOne_N","medCost_var","workCost_var","CV_M_avg","CV_M_tot","CV_w_avg","CV_w_tot","avg_combcost_var","combcost_var","CV_C_avg","CV_C_tot"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Nonfatal Hospitalized Injuries, Both Sexes, Ages 0 to 19 , United States, 2010",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Intent:   Unintentional",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Mechanism:   Pedal Cyclist, Pedestrian",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Estimated Number of Nonfatal Injuries and Average and Total Lifetime Costs",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Classified by Mechanism and Intent",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Costs Expressed in 2010 U.S. Prices",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+"__","Mechanism","intent","Number_Hospitalized","Unweighted Count","Medical Cost","Work Loss Cost","Combined Cost","Avg Medical Cost","Avg Work Loss Cost","Avg Combined Cost","instability_code_N","instability_code_tot_w","instability_code_tot_c","instability_code_tot_M","instability_code_avg_w","instability_code_avg_c","instability_code_avg_M","unfmt_mech2","unfmt_intent","_type_","constantOne_N","medCost_var","workCost_var","CV_M_avg","CV_M_tot","CV_w_avg","CV_w_tot","avg_combcost_var","combcost_var","CV_C_avg","CV_C_tot"
+,"Pedal Cyclist","Unintentional",9430.7238,272,405840510.8433,1175992826.7476,1581833337.5909,43033.8667,124698.0457,167731.9124,0,0,0,0,0,0,0,17,1,3,1,8.3386E15,6.2018E16,0.12083,0.22500,0.10478,0.21177,326816459,1.1519549E17,0.107780,0.214564
+,"Pedestrian","Unintentional",7170.1764,236,374740485.7497,899593394.9845,1274333880.7342,52263.7752,125463.2173,177726.9925,0,0,0,0,0,0,0,18,1,3,1,8.9339E15,5.7714E16,0.08435,0.25223,0.09731,0.26705,263836257,1.1144729E17,0.091393,0.261970
+,"Total","Unintentional",16600.9002,508,780580996.5930,2075586221.7321,2856167218.3251,47020.4019,125028.5347,172048.9366,0,0,0,0,0,0,0,,1,1,2,2.6467E16,1.8471E17,0.09786,0.20842,0.09450,0.20706,264865923,3.4972362E17,0.094593,0.207052
+
+"_"
+"Footnotes:"
+"Injury Classification Scheme: Mechanism by Intent of Injury."
+"Reports for All Ages include those of unknown age."
+
+
+
+"* Cost estimates based on 20 or fewer injury cases, a national (weighted) estimate of 1200 or fewer cases, or with a coefficient of variation (CV) greater than 30% may be unstable.  Interpret with caution."
+"Produced by: National Center for Injury Prevention and Control, CDC"
+"Data Source: NCHS Vital Statistics System for numbers of deaths. NEISS All Injury Program operated by the U.S. Consumer Product Safety"
+"Commission (CPSC) for numbers of nonfatal injuries. Pacific Institute for Research and Evaluation (PIRE), Calverton, MD for unit cost estimates."
+
+"Created:             03MAY17:13:29"
+"Downloaded:   03MAY17:13:40"
+"Reference:        t19416"
+"Version/area:  costT"
+"Subset:  (where=(left(years) between '2010' and '2010' and ( left(intent) in( '1' ) ) and ( mech2 in( 17 ,18 ) ) and ( agegrp between  0  and  3 )))  (For Regional/State Price runs, Region/State appears in a separate column.)"
+
+
